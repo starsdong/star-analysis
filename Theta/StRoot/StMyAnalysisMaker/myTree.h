@@ -1,0 +1,26 @@
+struct MYTREE {
+  Int_t   mRunId;
+  Int_t   mEvtId;
+  Float_t mVx;
+  Float_t mVy;
+  Float_t mVz;
+  Short_t mFxtMult;
+  Int_t   mNV0;
+  UChar_t mFlag[10000];
+  Float_t mPt1[10000];
+  Float_t mPt2[10000];
+  Float_t mEta1[10000];
+  Float_t mEta2[10000];
+  Float_t mPhi1[10000];
+  Float_t mPhi2[10000];
+  Float_t mDca1[10000];
+  Float_t mDca2[10000];
+  Float_t mDca12[10000];
+  Float_t mDecayL[10000];
+  Float_t mPt[10000];
+  Float_t mEta[10000];
+  Float_t mPhi[10000];
+  Float_t mMass[10000];
+  Float_t mDca2Vtx[10000];
+};
+MYTREE v0Tree;
